@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import {Navbar} from 'react-bootstrap'
+import CatList from './CatList'
+import {connect} from 'react-redux'
+class App extends Component {
 
-class App extends Component {   
-  
   render() {
     return (
       <div className="App">
@@ -10,9 +11,11 @@ class App extends Component {
           <Navbar.Header>
             <Navbar.Brand>
               <a href="#">CatBook</a>
+
             </Navbar.Brand>
           </Navbar.Header>
         </Navbar>
+        <CatList/>
       </div>
     );
   }
@@ -21,4 +24,3 @@ class App extends Component {
 
 
 export default App
-
