@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-class CatList extends Component {
+export default class CatList extends Component {
+  render(){
 
-
+  }
 }
-export default CatList;
