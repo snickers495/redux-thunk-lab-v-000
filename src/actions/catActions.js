@@ -7,3 +7,4 @@ export function fetchCats(){
       .then(response => response.json())
       .then(cats => dispatch({ type: 'FETCH_CATS', payload: cats.images }));
   };
+}
